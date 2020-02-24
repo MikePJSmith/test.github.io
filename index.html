@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+    <script src="jquery-1.9.1.min.js"></script>
+    <script src= "Javascript.js"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script>
+    <title>Michael's Bolus Calculator</title>
+</head>
+<body>
+    <div id="wrap">
+        <div id="bolus">
+            <h3>Bolus Calculator</h3>
+        </div>
+        <div id="labelstop">
+            <div class="label" id="label1">
+                <a class="id">Current BGL:</a>
+            </div>
+            <div class="label" id="label2">
+                <a class="id">Target BGL:</a>
+            </div>
+            <div class="label" id="label3">
+                <a class="id">Excess BG:</a>
+            </div>
+            <div class="label" id="label4">
+                <a class="id">Sensitivity:</a>
+            </div>
+        </div>
+        <div id="valuestop">
+            <div class="content" id="Current">
+                <input type="text" id="x1" placeholder="Input"><br>
+            </div>
+            <div class="content" id="Target">
+                <input type="text" id="x2" value="100"><br>
+            </div>
+            <div class="content" id="Excess">
+                <input type="text" id="x3" placeholder="calc"><br>
+            </div>
+            <div class="content" id="Sensitive">
+                <input type="number" id="x4" value="40"><br>
+            </div>
+        </div>
+        <div id="labelsbottom">
+            <div class="label" id="label5">
+                <a class="id">Insulin to lower:</a>
+            </div>
+            <div class="label" id="label6">
+                <a class="id">Carbs:</a>
+            </div>
+            <div class="label" id="label7">
+                <a class="id">CH Ratio:</a>
+            </div>
+            <div class="label" id="label8">
+                <a class="id">Food Cover:</a>
+            </div>
+        </div>
+        <div id="valuesbottom">
+            <div class="content" id="Lower">
+                <input type="text" id="x5" placeholder="calc"><br>
+            </div>
+            <div class="content" id="Carb">
+                <input type="text" id="y1" placeholder="Input"><br>
+            </div>
+            <div class="content" id="Ratio">
+                <input type="number" id="y2" value="9"><br>
+            </div>
+            <div class="content" id="Cover">
+                <input type="text" id="y3" placeholder="calc"><br>
+            </div>
+        </div>
+        <div id="action">
+            <button id="but">Calculate</button><br>
+        </div>
+        <div id="results">
+            <div class="final" id="finallabel">
+                <a class="id"> Dose:</a>
+            </div>
+            <div class="final" id="finalvalue">
+                <input type="text" id="value" placeholder="dose"><br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
