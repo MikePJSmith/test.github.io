@@ -26,20 +26,18 @@ body {
     height: 100%;
     background-color: gray;
 }
-
+#bolus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: lavender;
+}
 h3 {
     color: black;
     font-style: italic;
     margin-left: 10px;
-}
-
-#bolus {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
-    text-align: left;
-    background-color: lavender;
 }
 
 #labelstop {
