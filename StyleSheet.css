@@ -1,10 +1,10 @@
 ﻿
 body {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
 }
 
 #x1, #x2, #x3, #x4, #x5, #y1, #y2, #y3, #value {
