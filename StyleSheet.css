@@ -1,6 +1,11 @@
 ﻿
 body {
     font-family: Calibri;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 #x1, #x2, #x3, #x4, #x5, #y1, #y2, #y3, #value {
@@ -121,7 +126,6 @@ h3 {
     background-color: linen;
     text-align: center;
     margin-top: 15px;
-    margin-left: 350px;
 }
 
 #results {
