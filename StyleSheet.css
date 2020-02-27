@@ -10,8 +10,8 @@ body {
 }
 
 #x1, #x2, #x3, #x4, #x5, #y1, #y2, #y3, #value, #test, #z1, #z2, #z3, #z4 {
-    width: 50%;
-    height: 25%;
+    width: 25%;
+    height: 50%;
     background-color: linen;
     text-align: center;
     display: inline-block;
@@ -31,11 +31,9 @@ body {
 
 #bolus {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 50%;
-    background-color: yellowgreen;
+    background-color: slategrey;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -129,7 +127,7 @@ h3 {
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: yellow;
+    background-color: lightgray;
 }
 
 #but {
@@ -144,7 +142,7 @@ h3 {
     width: 100%;
     height: 100%;
     text-align: center;
-    background-color: lightsteelblue;
+    background-color: gray;
 }
 #results {
     display: inline-flex;
@@ -159,8 +157,7 @@ h3 {
 .final {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100%;
+    width: 50%;
     height: 100%;
     text-align: center;
 }
