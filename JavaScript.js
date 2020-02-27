@@ -22,6 +22,8 @@
             var oneless = ((+y1 * +z1) + +x1) - ((+insulin2 - 1) * +x4);
             var at = ((+y1 * +z1) + +x1) - (+insulin2 * +x4);
             var oneplus = ((+y1 * +z1) + +x1) - ((+insulin2 + 1) * +x4);
+            var plusone = +insulin2 + 1;
+            var minusone = +insulin2 - 1;
             $("#delta").text(excess);
             $("#value").text(insulin);
             $("#test").text(insulin2);
