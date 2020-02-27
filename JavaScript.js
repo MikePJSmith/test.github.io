@@ -38,6 +38,7 @@
             document.getElementById("z2").value = oneless;
             document.getElementById("z3").value = at;
             document.getElementById("z4").value = oneplus;
+            document.getElementById("label10").innerHTML = plusone;
         }
     });
 });

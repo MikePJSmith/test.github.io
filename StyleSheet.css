@@ -134,9 +134,10 @@ h3 {
 
 #but {
     width: 25%;
-    height: 50%;
+    height: 75%;
     background-color: linen;
     text-align: center;
+    border-radius:10px;
 }
 #labelsresults {
     font-size: 2vw;
