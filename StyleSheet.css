@@ -10,7 +10,7 @@ body {
 }
 
 #x1, #x2, #x3, #x4, #x5, #y1, #y2, #y3, #value, #test, #z1, #z2, #z3, #z4 {
-    width: 25%;
+    width: 50%;
     height: 50%;
     background-color: linen;
     text-align: center;
@@ -31,6 +31,8 @@ body {
 
 #bolus {
     display: flex;
+    justify-content:center;
+    align-items:center;
     width: 100%;
     height: 50%;
     background-color: slategrey;
