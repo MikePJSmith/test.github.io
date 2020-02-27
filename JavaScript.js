@@ -21,7 +21,7 @@
             var food = Math.round((y1 / y2) * 100) / 100;
             var oneless = ((y1 * z1) + x1) - ((insulin2 - 1) * x4)-(4000 * y1);
             var at = ((y1 * z1) + x1) - (insulin2 * x4)-(4000 * y1);
-            var oneplus = ((y1 * z1) + x1) - ((insulin2 + 1) * x4) - 4000 * y1;
+            var oneplus = ((y1 * z1) + x1) - ((insulin2 + 1) * x4) - (4000 * y1);
             $("#delta").text(excess);
             $("#value").text(insulin);
             $("#test").text(insulin2);
