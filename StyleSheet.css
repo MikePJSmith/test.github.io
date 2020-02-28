@@ -17,6 +17,7 @@ body {
     display: inline-block;
     flex-direction: row;
     flex-wrap: nowrap;
+    border-radius:5px;
 }
 
 #wrap {
@@ -39,7 +40,20 @@ body {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
-
+#lunch:focus {
+    background: #e5e5e5;
+    outline: none;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+#dinner:focus {
+    background: #e5e5e5;
+    outline: none;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
 h3 {
     color: black;
     font-style: italic;
@@ -104,6 +118,7 @@ h3 {
     display: inline-flex;
     color: white;
     margin-top: 10px;
+    color:black;
 }
 
 .content {

@@ -38,7 +38,9 @@
             document.getElementById("z2").value = oneless;
             document.getElementById("z3").value = at;
             document.getElementById("z4").value = oneplus;
-            document.getElementById("label10").innerHTML = plusone;
+            document.getElementById("label12").innerHTML = "At " + plusone + " Units";
+            document.getElementById("label11").innerHTML = "At " + insulin2 + " Units";
+            document.getElementById("label10").innerHTML = "At " + minusone + " Units";
         }
     });
 });
