@@ -44,3 +44,7 @@
         }
     });
 });
+
+function buttonClick1() {
+    document.getElementById("x2").innerHTML = 125;
+}
