@@ -10,26 +10,31 @@
         var z1 = $("#z1").val();
         if (x1 === "" | y1 === "" | x4 === "" | y2 === "") { alert(" Please insert all values") }
         else {
-            $("#result").css("display", "inline");
+            //$("#result").css("display", "inline");
             var d1 = (x1 - x2) / x4;
+            var d1b = (x1 - 125) / x4;
             var d2 = y1 / y2;
             var d3 = Math.round((d1 + d2) * 100) / 100;
+            var d3b = Math.round((d1b + d2) * 100) / 100;
             var insulin = d3;
+            var insulinb = d3b;
             var insulin2 = Math.round(d3);
-            var excess = x1 - x2;
+            var insulin2b = Math.round(d3b);
+            var excess = x1 - 100;
+            var excessb = x1 - 125;
             var lower = Math.round((excess / x4) * 100) / 100;
+            var lowerb = Math.round((excessb / x4) * 100) / 100;
             var food = Math.round((y1 / y2) * 100) / 100;
             var oneless = ((+y1 * +z1) + +x1) - ((+insulin2 - 1) * +x4);
+            var onelessb = ((+y1 * +z1) + +x1) - ((+insulin2b - 1) * +x4);
             var at = ((+y1 * +z1) + +x1) - (+insulin2 * +x4);
+            var atb = ((+y1 * +z1) + +x1) - (+insulin2b * +x4);
             var oneplus = ((+y1 * +z1) + +x1) - ((+insulin2 + 1) * +x4);
+            var oneplusb = ((+y1 * +z1) + +x1) - ((+insulin2b + 1) * +x4);
             var plusone = +insulin2 + 1;
+            var plusoneb = +insulin2b + 1;
             var minusone = +insulin2 - 1;
-            $("#delta").text(excess);
-            $("#value").text(insulin);
-            $("#test").text(insulin2);
-            $("#z2").text(oneless);
-            $("#z3").text(at);
-            $("#z4").text(oneplus);
+            var minusoneb = +insulin2b - 1;
             document.getElementById("x3").value = excess;
             document.getElementById("x5").value = lower;
             document.getElementById("y3").value = food;
@@ -44,7 +49,3 @@
         }
     });
 });
-
-function buttonClick1() {
-    document.getElementById("x2").innerHTML = 125;
-}
