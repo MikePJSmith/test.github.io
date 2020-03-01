@@ -57,8 +57,10 @@ body {
 .button {
     display: flex;
     justify-content:center;
-    width: 100%;
+    width: 80%;
     height: 100%;
+    margin-left:5%;
+    margin-right:5%;
     text-align: center;
     font-size: 2vw;
 }
