@@ -1,18 +1,32 @@
 ﻿$(document).ready(function () {
 
+    $("#lunch").click(function () {
+        var t1 = 100
+        var s1 = 9
+        document.getElementById("x2").value = t1;
+        document.getElementById("y2").value = s1;
+    });
+    $("#dinner").click(function () {
+        var t2 = 125
+        var s2 = 10
+        document.getElementById("x2").value = t2;
+        document.getElementById("y2").value = s2;
+    });
     $("#but").click(function () {
 
         var x1 = $("#x1").val();
-        var x2 = $("#x2").val();
+        var x2 = document.getElementById("x2").value;
+        //var x2 = $("#x2").val();
         var x4 = $("#x4").val();
         var y1 = $("#y1").val();
-        var y2 = $("#y2").val();
+        var y2 = document.getElementById("y2").value;
+        //var y2 = $("#y2").val();
         var z1 = $("#z1").val();
         if (x1 === "" | y1 === "" | x4 === "" | y2 === "") { alert(" Please insert all values") }
         else {
             //$("#result").css("display", "inline");
             var d1 = (x1 - x2) / x4;
-            var d1b = (x1 - 125) / x4;
+            var d1b = (x1 - x2) / x4;
             var d2 = y1 / y2;
             var d3 = Math.round((d1 + d2) * 100) / 100;
             var d3b = Math.round((d1b + d2) * 100) / 100;
@@ -38,6 +52,7 @@
             document.getElementById("x3").value = excess;
             document.getElementById("x5").value = lower;
             document.getElementById("y3").value = food;
+            if (document.getElementById("x2").value = 100) { document.getElementById("value").value = insulinb };
             document.getElementById("value").value = insulin;
             document.getElementById("test").value = insulin2;
             document.getElementById("z2").value = oneless;
