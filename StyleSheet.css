@@ -37,8 +37,8 @@ body {
     width: 100%;
     height: 100%;
     background-color: slategrey;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     text-align: center;
     font-size: 2vw;
 }
@@ -193,8 +193,8 @@ h3 {
     height: 100%;
     text-align: center;
     background-color: gray;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .final {
