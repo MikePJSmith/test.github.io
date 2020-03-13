@@ -49,8 +49,6 @@ body {
     width: 90%;
     height: 80%;
     background-color: slategrey;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
     text-align: center;
     font-size: 2vw;
 }
