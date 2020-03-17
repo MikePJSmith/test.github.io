@@ -6,7 +6,6 @@ body {
     left: 0px;
     right: 0px;
     border-radius: 25px;
-    font: bold calibri;
 }
 
 #x1, #x2, #x3, #x4, #x5, #y1, #y2, #y3, #value, #test, #z1, #z2, #z3, #z4 {
@@ -18,6 +17,8 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     border-radius: 5px;
+    font-size: 2vw;
+    font-family:'tahoma';
 }
 
 #wrap {
@@ -40,7 +41,6 @@ body {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     text-align: center;
-    font-size: 2vw;
 }
 #meal {
     display: inline-flex;
@@ -50,18 +50,19 @@ body {
     height: 80%;
     background-color: slategrey;
     text-align: center;
-    font-size: 2vw;
 }
 .button {
     display: flex;
     background-color: linen;
     justify-content: center;
+    align-items: center;
     width: 25%;
     height: 75%;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
     font-size: 2vw;
+    font-family:Tahoma;
     border-radius: 10px;
 }
 /*#lunch:focus {
@@ -85,7 +86,6 @@ h3 {
 }
 
 #labelstop {
-    font-size: 2.5vw;
     display: inline-flex;
     width: 100%;
     height: 100%;
@@ -94,7 +94,6 @@ h3 {
 }
 
 #valuestop {
-    font-size: 2.5vw;
     display: inline-flex;
     width: 100%;
     height: 100%;
@@ -112,7 +111,6 @@ h3 {
 }
 
 #valuesmid {
-    font-size: 2.5vw;
     display: inline-flex;
     width: 100%;
     height: 100%;
@@ -121,7 +119,7 @@ h3 {
 }
 
 #labelsbottom {
-    font-size: 2.5vw;
+    font-family:Tahoma;
     display: inline-flex;
     width: 100%;
     height: 100%;
@@ -130,7 +128,6 @@ h3 {
 }
 
 #valuesbottom {
-    font-size: 2.5vw;
     display: inline-flex;
     width: 100%;
     height: 100%;
@@ -139,10 +136,12 @@ h3 {
 }
 
 .id {
+    font-size: 2vw;
     display: inline-flex;
     color: white;
     margin-top: 10px;
-    color:black;
+    color: black;
+    font-family: 'tahoma';
 }
 
 .content {
@@ -169,7 +168,6 @@ h3 {
     width: 100%;
     height: 100%;
     background-color: lightgray;
-    font-size: 2vw;
 }
 
 #but {
@@ -179,9 +177,9 @@ h3 {
     text-align: center;
     font-size: 2vw;
     border-radius: 10px;
+    font-family: Tahoma;
 }
 #labelsresults {
-    font-size: 2.5vw;
     display: inline-flex;
     width: 100%;
     height: 100%;
