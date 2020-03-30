@@ -1,13 +1,13 @@
 ﻿$(document).ready(function () {
 
     $("#lunch").click(function () {
-        var t1 = 100
+        var t1 = 90
         var s1 = 9
         document.getElementById("x2").value = t1;
         document.getElementById("y2").value = s1;
     });
     $("#dinner").click(function () {
-        var t2 = 125
+        var t2 = 115
         var s2 = 10
         document.getElementById("x2").value = t2;
         document.getElementById("y2").value = s2;
@@ -34,8 +34,8 @@
             var insulinb = d3b;
             var insulin2 = Math.round(d3);
             var insulin2b = Math.round(d3b);
-            var excess = x1 - 100;
-            var excessb = x1 - 125;
+            var excess = x1 - 90;
+            var excessb = x1 - 115;
             var lower = Math.round((excess / x4) * 100) / 100;
             var lowerb = Math.round((excessb / x4) * 100) / 100;
             var food = Math.round((y1 / y2) * 100) / 100;
