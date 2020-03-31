@@ -16,7 +16,7 @@ body {
     display: inline-block;
     flex-direction: row;
     flex-wrap: nowrap;
-    border-radius: 5px;
+    border-radius: 50px;
     font-size: 2vw;
     font-family:'tahoma';
 }
