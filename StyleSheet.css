@@ -18,7 +18,7 @@ body {
     flex-wrap: nowrap;
     border-radius: 10px;
     font-size: 2.25vw;
-    font-family:'tahoma';
+    font-family:'Segoe UI';
 }
 
 #wrap {
@@ -119,7 +119,7 @@ h3 {
 }
 
 #labelsbottom {
-    font-family:Tahoma;
+    font-family:'Segoe UI';
     display: inline-flex;
     width: 100%;
     height: 100%;
