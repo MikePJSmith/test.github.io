@@ -61,8 +61,8 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
-    font-size: 2vw;
-    font-family:Tahoma;
+    font-size: 2.25vw;
+    font-family:'Segoe UI';
     border-radius: 10px;
 }
 /*#lunch:focus {
@@ -136,18 +136,18 @@ h3 {
 }
 
 .id {
-    font-size: 2vw;
+    font-size: 2.25vw;
     justify-content: center;
     align-items: center;
     display: inline-flex;
     color: white;
     margin-top: 10px;
     color: black;
-    font-family: 'tahoma';
+    font-family: 'Segoe UI';
 }
 
 .content {
-    font-size: 2vw;
+    font-size: 2.25vw;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -162,7 +162,7 @@ h3 {
     width: 100%;
     height: 100%;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.25vw;
 }
 
 #action {
@@ -179,9 +179,9 @@ h3 {
     height: 75%;
     background-color: linen;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.25vw;
     border-radius: 10px;
-    font-family: Tahoma;
+    font-family: 'Segoe UI';
 }
 #labelsresults {
     display: inline-flex;
