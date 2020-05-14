@@ -1,13 +1,12 @@
 ﻿$(document).ready(function () {
-
-    $("#lunch").click(function () {
-        var t1 = 90
+    $("#Lunch").click(function () {
+        var t1 = 95
         var s1 = 9
         document.getElementById("x2").value = t1;
         document.getElementById("y2").value = s1;
     });
     $("#dinner").click(function () {
-        var t2 = 115
+        var t2 = 120
         var s2 = 10
         document.getElementById("x2").value = t2;
         document.getElementById("y2").value = s2;
