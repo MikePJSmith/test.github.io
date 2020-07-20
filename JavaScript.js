@@ -1,4 +1,10 @@
 ﻿$(document).ready(function () {
+    $("#Breakfast").click(function () {
+        var t1 = 90
+        var s1 = 8
+        document.getElementById("x2").value = t1;
+        document.getElementById("y2").value = s1;
+    });
     $("#Lunch").click(function () {
         var t1 = 90
         var s1 = 9
