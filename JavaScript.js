@@ -5,8 +5,8 @@
         document.getElementById("x2").value = t1;
         document.getElementById("y2").value = s1;
     });
-    $("#Lunch").click(function () {
-        var t1 = 90
+        $("#Lunch").click(function () {
+        var t1 = 100
         var s1 = 9
         document.getElementById("x2").value = t1;
         document.getElementById("y2").value = s1;
@@ -19,8 +19,8 @@
     });
     $("#but").click(function () {
 
-        //var x1 = document.getElementById("x1").value;
-        var x1 = $("#x1").val();
+        var x1 = document.getElementById("x1").value;
+        //var x1 = $("#x1").val();
         //var x2 = t1;
         var x2 = $("#x2").val();
         var x4 = $("#x4").val();
