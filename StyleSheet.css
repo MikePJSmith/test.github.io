@@ -84,6 +84,7 @@ h3 {
     color: black;
     font-style: italic;
     margin-left: 10px;
+    font-family: 'Segoe UI';
 }
 
 #labelstop {
@@ -92,6 +93,7 @@ h3 {
     height: 100%;
     text-align: center;
     background-color: lightgreen;
+    font-family: 'Segoe UI';
 }
 
 #valuestop {
@@ -100,15 +102,17 @@ h3 {
     height: 100%;
     text-align: center;
     background-color: lightgreen;
+    font-family: 'Segoe UI';
 }
 
 #labelsmid {
-    font-size: 2.5vw;
+    font-size: 2vw;
     display: inline-flex;
     width: 100%;
     height: 100%;
     text-align: center;
     background-color: cadetblue;
+    font-family: 'Segoe UI';
 }
 
 #valuesmid {
@@ -117,6 +121,7 @@ h3 {
     height: 100%;
     text-align: center;
     background-color: cadetblue;
+    font-family: 'Segoe UI';
 }
 
 #labelsbottom {
@@ -134,10 +139,11 @@ h3 {
     height: 100%;
     text-align: center;
     background-color: lightsteelblue;
+    font-family: 'Segoe UI';
 }
 
 .id {
-    font-size: 2.25vw;
+    font-size: 2vw;
     justify-content: center;
     align-items: center;
     display: inline-flex;
@@ -145,15 +151,17 @@ h3 {
     margin-top: 10px;
     color: black;
     font-family: 'Segoe UI';
+        font-family: 'Segoe UI';
 }
 
 .content {
-    font-size: 2.25vw;
+    font-size: 2vw;
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
     text-align: center;
+    font-family: 'Segoe UI';
 }
 
 .label {
@@ -161,9 +169,10 @@ h3 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 75%;
     text-align: center;
-    font-size: 2.25vw;
+    font-size: 2vw;
+    font-family: 'Segoe UI';
 }
 
 #action {
@@ -173,6 +182,7 @@ h3 {
     width: 100%;
     height: 100%;
     background-color: lightgray;
+    font-family: 'Segoe UI';
 }
 
 #but {
@@ -180,7 +190,7 @@ h3 {
     height: 75%;
     background-color: linen;
     text-align: center;
-    font-size: 2.25vw;
+    font-size: 2vw;
     border-radius: 10px;
     font-family: 'Segoe UI';
 }
@@ -190,6 +200,7 @@ h3 {
     height: 100%;
     text-align: center;
     background-color: gray;
+    font-family: 'Segoe UI';
 }
 #results {
     display: inline-flex;
@@ -199,6 +210,7 @@ h3 {
     background-color: gray;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    font-family: 'Segoe UI';
 }
 
 .final {
@@ -207,4 +219,5 @@ h3 {
     width: 50%;
     height: 100%;
     text-align: center;
+    font-family: 'Segoe UI';
 }
