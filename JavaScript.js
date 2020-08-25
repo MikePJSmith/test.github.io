@@ -1,21 +1,21 @@
 ﻿$(document).ready(function () {
     $("#Breakfast").click(function () {
         var t1 = 90
-        var s1 = 8
+        //var s1 = 8
         document.getElementById("x2").value = t1;
-        document.getElementById("y2").value = s1;
+        //document.getElementById("y2").value = s1;
     });
         $("#Lunch").click(function () {
         var t1 = 100
-        var s1 = 9
+        //var s1 = 9
         document.getElementById("x2").value = t1;
-        document.getElementById("y2").value = s1;
+        //document.getElementById("y2").value = s1;
     });
     $("#dinner").click(function () {
         var t1 = 115
-        var s1 = 10
+        //var s1 = 10
         document.getElementById("x2").value = t1;
-        document.getElementById("y2").value = s1;
+       //document.getElementById("y2").value = s1;
     });
     $("#but").click(function () {
 
@@ -25,7 +25,9 @@
         var x2 = $("#x2").val();
         var x4 = $("#x4").val();
         var y1 = $("#y1").val();
-        var y2 = document.getElementById("y2").value;
+        var z5 = $("#z1").val() * $("#x1").val();
+        var y2 = x1 / (z5 / x4);
+        //var y2 = document.getElementById("y2").value;
         //var y2 = $("#y2").val();
         var z1 = $("#z1").val();
         if (x1 === "" | y1 === "" | x4 === "" | y2 === "") { alert(" Please insert all values") }
@@ -34,6 +36,7 @@
             var d1 = (x1 - x2) / x4;
             var d2 = y1 / y2;
             var d3 = Math.round((d1 + d2) * 100) / 100;
+            var Ratio = Math.round(y2 *100)/100;
             var insulin = d3;
             var insulin2 = Math.round(d3);
             var excess = document.getElementById("x1").value - document.getElementById("x2").value;
@@ -46,6 +49,7 @@
             var minusone = +insulin2 - 1;
             document.getElementById("x3").value = excess
             document.getElementById("x5").value = lower;
+            document.getElementById("y2").value = Ratio;
             document.getElementById("y3").value = food;
             document.getElementById("value").value = insulin;
             document.getElementById("test").value = insulin2;
