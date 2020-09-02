@@ -12,7 +12,7 @@
         //document.getElementById("y2").value = s1;
     });
     $("#dinner").click(function () {
-        var t1 = 115
+        var t1 = 125
         //var s1 = 10
         document.getElementById("x2").value = t1;
        //document.getElementById("y2").value = s1;
