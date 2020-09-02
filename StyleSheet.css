@@ -17,7 +17,7 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     border-radius: 10px;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-family: 'Segoe UI';
 }
 #x2, #x3, #x4, #x5,#y2, #y3, #value, #test, #z1, #z2, #z3, #z4 {
@@ -30,7 +30,7 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     border-radius: 10px;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-family: 'Segoe UI';
 }
 
