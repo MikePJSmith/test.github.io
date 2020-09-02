@@ -47,6 +47,7 @@
             var oneplus = ((+y1 * +z1) + +x1) - ((+insulin2 + 1) * +x4);
             var plusone = +insulin2 + 1;
             var minusone = +insulin2 - 1;
+            var bon = Math.round((((at - x2) / z1)*-1)*100)/100;
             document.getElementById("x3").value = excess
             document.getElementById("x5").value = lower;
             document.getElementById("y2").value = Ratio;
@@ -59,6 +60,8 @@
             document.getElementById("label12").innerHTML = "At " + plusone + " Units";
             document.getElementById("label11").innerHTML = "At " + insulin2 + " Units";
             document.getElementById("label10").innerHTML = "At " + minusone + " Units";
+            document.getElementById("leftover").value = at - x2;
+            document.getElementById("bonus").value = bon;
         }
     });
 });
