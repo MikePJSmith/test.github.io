@@ -42,9 +42,9 @@
             var excess = document.getElementById("x1").value - document.getElementById("x2").value;
             var lower = Math.round((excess / x4) * 100) / 100;
             var food = Math.round((y1 / y2) * 100) / 100;
-            var oneless = ((+y1 * +z1) + +x1) - ((+insulin2 - 1) * +x4);
-            var at = ((+y1 * +z1) + +x1) - (+insulin2 * +x4);
-            var oneplus = ((+y1 * +z1) + +x1) - ((+insulin2 + 1) * +x4);
+            var oneless = Math.round(((+y1 * +z1) + +x1) - ((+insulin2 - 1) * +x4));
+            var at = Math.round(((+y1 * +z1) + +x1) - (+insulin2 * +x4));
+            var oneplus = Math.round(((+y1 * +z1) + +x1) - ((+insulin2 + 1) * +x4));
             var plusone = +insulin2 + 1;
             var minusone = +insulin2 - 1;
             var bon = Math.round((((at - x2) / z1)*-1)*100)/100;
