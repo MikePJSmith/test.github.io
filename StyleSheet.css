@@ -85,7 +85,7 @@ body {
     }
 
     .button:active {
-        background-color: #3e8e41;
+        background-color: darkslategrey;
         box-shadow: 9px 9px 5px 1px rgba(0,0,0,0.75);
         transform: translateY(4px);
     }
@@ -207,7 +207,7 @@ h3 {
     font-family: 'Segoe UI';
 }
 
-#but {
+.calculate {
     width: 25%;
     height: 75%;
     background-color: linen;
@@ -215,6 +215,17 @@ h3 {
     font-size: 2vw;
     border-radius: 10px;
     font-family: 'Segoe UI';
+    box-shadow: 0 9px #999;
+    cursor: pointer;
+}
+.calculate:hover {
+    background-color: white
+}
+
+.calculate:active {
+    background-color: darkslategrey;
+    box-shadow: 9px 9px 5px 1px rgba(0,0,0,0.75);
+    transform: translateY(4px);
 }
 #labelsresults {
     display: inline-flex;
