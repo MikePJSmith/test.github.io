@@ -21,20 +21,25 @@
             <div class="label" id="label1">
                 <a class="id">Current BGL</a>
             </div>
+            <div class="label" id="label6">
+                <a class="id">Carbs</a>
+            </div>
             <div class="label" id="label2">
                 <a class="id">Target BGL</a>
             </div>
             <div class="label" id="label3">
                 <a class="id">Excess BG</a>
             </div>
-            <div class="label" id="label4">
-                <a class="id">Sensitivity</a>
-            </div>
+
         </div>
         <div id="valuestop">
             <div class="content" id="Current">
                 <!--<input type="text" id="x1" placeholder="Input"><br>-->
                 <input type="number" min="0" inputmode="numeric" pattern="[0-9]*" title="Non-negative integral number" id="x1" placeholder="Input"><br>
+            </div>
+            <div class="content" id="Carb">
+                <!--<input type="text" id="y1" placeholder="Input"><br>-->
+                <input type="number" min="0" inputmode="numeric" pattern="[0-9]*" title="Non-negative integral number" id="y1" placeholder="Input"><br>
             </div>
             <div class="content" id="Target">
                 <input type="text" id="x2" placeholder="Target"><br>
@@ -42,16 +47,14 @@
             <div class="content" id="Excess">
                 <input type="text" id="x3" placeholder="Calc"><br>
             </div>
-            <div class="content" id="Sensitive">
-                <input type="number" id="x4" value="40"><br>
-            </div>
+
         </div>
         <div id="labelsmid">
+            <div class="label" id="label4">
+                <a class="id">Sensitivity</a>
+            </div>
             <div class="label" id="label5">
                 <a class="id">Insulin to lower</a>
-            </div>
-            <div class="label" id="label6">
-                <a class="id">Carbs</a>
             </div>
             <div class="label" id="label7">
                 <a class="id">CH Ratio</a>
@@ -61,13 +64,13 @@
             </div>
         </div>
         <div id="valuesmid">
+            <div class="content" id="Sensitive">
+                <input type="number" id="x4" value="40"><br>
+            </div>
             <div class="content" id="Lower">
                 <input type="text" id="x5" placeholder="Calc"><br>
             </div>
-            <div class="content" id="Carb">
-                <!--<input type="text" id="y1" placeholder="Input"><br>-->
-                <input type="number" min="0" inputmode="numeric" pattern="[0-9]*" title="Non-negative integral number" id="y1" placeholder="Input"><br>
-            </div>
+
             <div class="content" id="Ratio">
                 <input type="text" id="y2" placeholder="Ratio"><br>
             </div>
