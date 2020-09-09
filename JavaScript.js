@@ -37,7 +37,7 @@
         //var y2 = document.getElementById("y2").value;
         //var y2 = $("#y2").val();
         var z1 = $("#z1").val();
-        if (x1 === "" | y1 === "" | x4 === "" | y2 === "") { alert(" Please insert all values") }
+        if (x1 === "" | y1 === "" | x4 === "" | y2 === "" | z1 === "") { alert(" Please insert all values") }
         else {
             //$("#result").css("display", "inline");
             var d1 = (x1 - x2) / x4;
