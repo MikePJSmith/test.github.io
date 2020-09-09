@@ -111,13 +111,73 @@ body {
         background-color: darkslategrey;
         transform: translateY(4px);
     }
+#onboardwrap {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    background-color: slategrey;
+    text-align: center;
+}
+
+#onboard {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 80%;
+    background-color: slategrey;
+    text-align: center;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+.recents {
+    display: flex;
+    background-color: linen;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: 'Segoe UI';
+    cursor: pointer;
+    box-shadow: 0px 5px 5px 1px rgba(0,0,0,0.75);
+}
+.recents:hover {
+    background-color: white
+}
+
+.recents:active {
+    background-color: darkslategrey;
+    transform: translateY(4px);
+}
+
+.recentvals {
+    display: flex;
+    background-color: linen;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: 'Segoe UI';
+}
 h3 {
     color: black;
     font-style: italic;
     margin-left: 10px;
     font-family: 'Segoe UI';
 }
-
 #labelstop {
     font-size: 2vw;
     display: inline-flex;
@@ -233,6 +293,7 @@ h3 {
     font-size: 2vw;
     font-family: 'Segoe UI';
 }
+
 #labelsresults {
     display: inline-flex;
     width: 100%;
