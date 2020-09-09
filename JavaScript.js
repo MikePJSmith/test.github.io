@@ -1,20 +1,26 @@
 ﻿$(document).ready(function () {
     $("#Breakfast").click(function () {
         var t1 = 90
+        var t2 = 6
         //var s1 = 8
         document.getElementById("x2").value = t1;
+        document.getElementById("z1").value = t2;
         //document.getElementById("y2").value = s1;
     });
         $("#Lunch").click(function () {
-        var t1 = 100
+            var t1 = 100
+            var t2 = 5.5
         //var s1 = 9
-        document.getElementById("x2").value = t1;
+            document.getElementById("x2").value = t1;
+            document.getElementById("z1").value = t2;
         //document.getElementById("y2").value = s1;
     });
     $("#dinner").click(function () {
-        var t1 = 125
+        var t1 = 120
+        var t2 = 5
         //var s1 = 10
         document.getElementById("x2").value = t1;
+        document.getElementById("z1").value = t2;
        //document.getElementById("y2").value = s1;
     });
     $("#but").click(function () {
