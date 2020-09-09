@@ -141,7 +141,6 @@ body {
 }
 .recents {
     display: flex;
-    background-color: linen;
     justify-content: center;
     align-items: center;
     width: 100%;
