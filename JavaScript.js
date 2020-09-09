@@ -27,6 +27,7 @@
 
         //var x1 = document.getElementById("x1").value;
         var x1 = $("#x1").val();
+        var bb1 = $("#bb1").val();
         //var x2 = t1;
         var x2 = $("#x2").val();
         var x4 = $("#x4").val();
@@ -53,7 +54,15 @@
             var oneplus = Math.round(((+y1 * +z1) + +x1) - ((+insulin2 + 1) * +x4));
             var plusone = +insulin2 + 1;
             var minusone = +insulin2 - 1;
-            var bon = Math.round((((at - x2) / z1)*-1)*100)/100;
+            var bon = Math.round((((at - x2) / z1) * -1) * 100) / 100;
+            var h1 = bb1 * 0.925;
+            var h1p5 = bb1 * 0.825;
+            var h2 = bb1 * 0.65;
+            var h2p5 = bb1 * 0.5;
+            var h3 = bb1 * 0.35;
+            var h3p5 = bb1 * 0.2;
+            var h4 = bb1 * 0.125;
+            var h4p5 = bb1 * 0.0;
             document.getElementById("x3").value = excess
             document.getElementById("x5").value = lower;
             document.getElementById("y2").value = Ratio;
@@ -68,6 +77,14 @@
             document.getElementById("label10").innerHTML = "At " + minusone + " Units";
             document.getElementById("leftover").value = at - x2;
             document.getElementById("bonus").value = bon;
+            document.getElementById("bb2").value = h1;
+            document.getElementById("bb3").value = h1p5;
+            document.getElementById("bb4").value = h2;
+            document.getElementById("bb5").value = h2p5;
+            document.getElementById("bb6").value = h3;
+            document.getElementById("bb7").value = h3p5;
+            document.getElementById("bb8").value = h4;
+            document.getElementById("bb9").value = h4p5;
         }
     });
 });
