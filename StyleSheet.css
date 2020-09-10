@@ -103,9 +103,8 @@ body {
     width: 100%;
     height: 100%;
 }
-
 #bolus {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -130,7 +129,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 30%;
-    height: 75%;
+    height: 80%;
     margin-left: 2.5%;
     margin-right: 2.5%;
     text-align: center;
@@ -140,11 +139,10 @@ body {
     cursor: pointer;
     box-shadow: 0px 5px 5px 1px rgba(0,0,0,0.75);
 }
-    .button:hover {
+.button:hover {
         background-color: white
     }
-
-    .button:active {
+.button:active {
         background-color: darkslategrey;
         transform: translateY(4px);
     }
@@ -156,7 +154,6 @@ body {
     background-color: slategrey;
     text-align: center;
 }
-
 #onboard {
     display: inline-flex;
     justify-content: center;
@@ -173,7 +170,6 @@ body {
     text-align: center;
     font-family: 'Segoe UI';
 }
-
 .recents {
     display: flex;
     justify-content: center;
@@ -189,12 +185,10 @@ body {
 .recents:hover {
     background-color: white
 }
-
 .recents:active {
     background-color: darkslategrey;
     transform: translateY(4px);
 }
-
 .recentvals {
     display: flex;
     background-color: linen;
@@ -221,7 +215,6 @@ h3 {
     background: #7AB893;
     font-family: 'Segoe UI';
 }
-
 #valuestop {
     display: inline-flex;
     width: 100%;
@@ -237,9 +230,7 @@ h3 {
     width: 100%;
     height: 100%;
     background: #B2E3AF;
-    font-family: 'Segoe UI';
 }
-
 .calculate {
     position: relative;
     width: 25%;
@@ -252,12 +243,10 @@ h3 {
     cursor: pointer;
     box-shadow: 0px 5px 5px 1px rgba(0,0,0,0.75);
 }
-
-    .calculate:hover {
+.calculate:hover {
         background-color: white
     }
-
-    .calculate:active {
+.calculate:active {
         background-color: darkslategrey;
         transform: translateY(4px);
     }
@@ -269,7 +258,6 @@ h3 {
     background: #7AB893;
     font-family: 'Segoe UI';
 }
-
 #valuesmid {
     display: inline-flex;
     width: 100%;
@@ -278,7 +266,6 @@ h3 {
     background: #7AB893;
     font-family: 'Segoe UI';
 }
-
 #labelsbottom {
     font-family: 'Segoe UI';
     display: inline-flex;
@@ -287,7 +274,6 @@ h3 {
     text-align: center;
     background: #B2E3AF;
 }
-
 #valuesbottom {
     display: inline-flex;
     width: 100%;
@@ -296,7 +282,6 @@ h3 {
     background: #B2E3AF;
     font-family: 'Segoe UI';
 }
-
 .id {
     font-size: 2.7vw;
     justify-content: center;
@@ -307,7 +292,6 @@ h3 {
     font-family: 'Segoe UI';
         font-family: 'Segoe UI';
 }
-
 .content {
     display: flex;
     justify-content: center;
@@ -316,7 +300,6 @@ h3 {
     text-align: center;
     font-family: 'Segoe UI';
 }
-
 .label {
     display: flex;
     justify-content: center;
@@ -327,7 +310,6 @@ h3 {
     font-size: 2vw;
     font-family: 'Segoe UI';
 }
-
 #labelsresults {
     display: inline-flex;
     width: 100%;
@@ -346,7 +328,6 @@ h3 {
     border-bottom-right-radius: 15px;
     font-family: 'Segoe UI';
 }
-
 .final {
     display: flex;
     justify-content: center;
