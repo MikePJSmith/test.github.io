@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
     $("#Breakfast").click(function () {
-        var t1 = 95
+        var t1 = 90
         var t2 = 5
         //var s1 = 8
         document.getElementById("x2").value = t1;
