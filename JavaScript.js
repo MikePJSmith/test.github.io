@@ -1,7 +1,7 @@
 ﻿$(document).ready(function () {
     $("#Breakfast").click(function () {
-        var t1 = 90
-        var t2 = 6
+        var t1 = 95
+        var t2 = 5
         //var s1 = 8
         document.getElementById("x2").value = t1;
         document.getElementById("z1").value = t2;
@@ -9,7 +9,7 @@
     });
         $("#Lunch").click(function () {
             var t1 = 100
-            var t2 = 5.5
+            var t2 = 5
         //var s1 = 9
             document.getElementById("x2").value = t1;
             document.getElementById("z1").value = t2;
