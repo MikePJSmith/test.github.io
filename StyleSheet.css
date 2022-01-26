@@ -146,13 +146,12 @@ body {
     justify-content: center;
     align-items: center;
     width: 30%;
-    height: 80%;
+    height: 100%;
     margin-left: 2.5%;
     margin-right: 2.5%;
     text-align: center;
     font-size: 2.75vw;
     font-family: 'Segoe UI';
-    border-radius: 10px;
 }
 .button:hover {
         background-color: white
