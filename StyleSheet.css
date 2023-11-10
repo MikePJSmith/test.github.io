@@ -33,18 +33,19 @@ body {
     font-family: 'Segoe UI';
 }
 #aa1, #aa2, #aa3, #aa4, #aa5, #aa6, #aa7, #aa8, #aa9 {
-    display: flex;
+    display: inline-flex;
+    vertical-align: middle;
     background-color: linen;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: 'Segoe UI';
     border-radius: 0;
 }
-#bb2, #bb3, #bb4, #bb5, #bb6, #bb7, #bb8, #bb9 {
+#bb1, #bb2, #bb3, #bb4, #bb5, #bb6, #bb7, #bb8, #bb9, #bb10 {
     display: flex;
     background-color: linen;
     justify-content: center;
@@ -52,7 +53,7 @@ body {
     width: 100%;
     height: 100%;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: 'Segoe UI';
     border-radius: 0;
 }
@@ -119,7 +120,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 80%;
+    height: 90%;
     background-color: slategrey;
     text-align: center;
 }
@@ -129,11 +130,11 @@ body {
     justify-content: center;
     align-items: center;
     width: 30%;
-    height: 80%;
+    height: 90%;
     margin-left: 2.5%;
     margin-right: 2.5%;
     text-align: center;
-    font-size: 2.75vw;
+    font-size: 2vw;
     font-family: 'Segoe UI';
     border-radius: 10px;
     cursor: pointer;
@@ -143,14 +144,14 @@ body {
 .click {
     display: flex;
     background-color: linen;
-    justify-content: center;
+    vertical-align: middle;
     align-items: center;
-    width: 30%;
+    justify-content: center;
+    width: 100%;
     height: 100%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    padding:0;
     text-align: center;
-    font-size: 2.75vw;
+    font-size: 2vw;
     font-family: 'Segoe UI';
 }
 .button:hover {
@@ -160,11 +161,20 @@ body {
         background-color: darkslategrey;
         transform: translateY(4px);
     }
-#onboardwrap {
+#onboardwrapwrap {
     display: inline-flex;
     justify-content: center;
     width: 100%;
-    height: 40%;
+    height: 100%;
+    background-color: slategrey;
+    text-align: center;
+}
+#onboardwrap {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95%;
     background-color: slategrey;
     text-align: center;
 }
@@ -172,16 +182,19 @@ body {
     display: inline-flex;
     justify-content: center;
     width: 95%;
-    height: 80%;
+    height: 90%;
     background-color: slategrey;
     text-align: center;
 }
 .boxes {
     display: flex;
+    vertical-align: middle;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    padding:0;
+    width: 90%;
+    height: 95%;
     text-align: center;
+    font-size: 1.5vw;
     font-family: 'Segoe UI';
 }
 .recents {
@@ -209,7 +222,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 95%;
     text-align: center;
     font-size: 1.5vw;
     font-family: 'Segoe UI';
