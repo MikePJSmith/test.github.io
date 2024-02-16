@@ -16,7 +16,7 @@
         //document.getElementById("y2").value = s1;
     });
     $("#dinner").click(function () {
-        var t1 = 120
+        var t1 = 110
         var t2 = 5
         //var s1 = 10
         document.getElementById("x2").value = t1;
