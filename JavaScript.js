@@ -65,6 +65,12 @@
         document.getElementById("bb8").value = e1
         document.getElementById("bb10").value = e1;
     });
+    /*$("#MT1").click(function () {
+        var MM1 = $("#bb1").val();
+        var e1 = bbx * .125;
+        document.getElementById("bb8").value = e1
+        document.getElementById("bb10").value = e1;
+    });*/
     $("#but").click(function () {
         //var x1 = document.getElementById("x1").value;
         var ex = $("#bb10").val()
