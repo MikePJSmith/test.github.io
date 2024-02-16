@@ -24,45 +24,52 @@
        //document.getElementById("y2").value = s1;
     });
     $("#aa2").click(function () {
-        var bb1 = $("#bb1").val();
-        var e1 = $("#bb1").val() * .875;
-        document.getElementById("Extra").value = e1;
+        var bbx = $("#bb1").val();
+        var e1 = bbx * .875;
+        document.getElementById("bb2").value = e1
+        document.getElementById("bb10").value = e1;
     });
     $("#aa3").click(function () {
-        var bb1 = $("#bb1").val();
-        var e1 = $("#bb1").val() * .750;
-        document.getElementById("Extra").value = e1;
+        var bbx = $("#bb1").val();
+        var e1 = bbx * .750;
+        document.getElementById("bb3").value = e1
+        document.getElementById("bb10").value = e1;
     });
     $("#aa4").click(function () {
-        var bb1 = $("#bb1").val();
-        var e1 = $("#bb1").val() * .625;
-        document.getElementById("Extra").value = e1;
+        var bbx = $("#bb1").val();
+        var e1 = bbx * .625;
+        document.getElementById("bb4").value = e1
+        document.getElementById("bb10").value = e1;
     });
     $("#aa5").click(function () {
-        var bb1 = $("#bb1").val();
-        var e1 = $("#bb1").val() * .500;
-        document.getElementById("Extra").value = e1;
+        var bbx = $("#bb1").val();
+        var e1 = bbx * .500;
+        document.getElementById("bb5").value = e1
+        document.getElementById("bb10").value = e1;
     });
     $("#aa6").click(function () {
-        var bb1 = $("#bb1").val();
-        var e1 = $("#bb1").val() * .375;
-        document.getElementById("Extra").value = e1;
+        var bbx = $("#bb1").val();
+        var e1 = bbx * .375;
+        document.getElementById("bb6").value = e1
+        document.getElementById("bb10").value = e1;
     });
     $("#aa7").click(function () {
-        var bb1 = $("#bb1").val();
-        var e1 = $("#bb1").val() * .250;
-        document.getElementById("Extra").value = e1;
+        var bbx = $("#bb1").val();
+        var e1 = bbx * .250;
+        document.getElementById("bb7").value = e1
+        document.getElementById("bb10").value = e1;
     });
     $("#aa8").click(function () {
-        var bb1 = $("#bb1").val();
-        var e1 = $("#bb1").val() * .125;
-        document.getElementById("Extra").value = e1;
+        var bbx = $("#bb1").val();
+        var e1 = bbx * .125;
+        document.getElementById("bb8").value = e1
+        document.getElementById("bb10").value = e1;
     });
     $("#but").click(function () {
         //var x1 = document.getElementById("x1").value;
-        var ex = $("#Extra").val()
+        var ex = $("#bb10").val()
         var x1 = $("#x1").val();
-        var bb1 = $("#bb1").val();
+        //var bb1 = $(bb1).val();
         //var x2 = t1;
         var x2 = $("#x2").val();
         var x4 = $("#x4").val();
