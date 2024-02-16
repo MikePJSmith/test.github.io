@@ -251,11 +251,11 @@ h3 {
     font-family: 'Segoe UI';
 }
 #action {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50%;
+    height: 100%;
     background: #B2E3AF;
 }
 .calculate {
@@ -323,7 +323,7 @@ h3 {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 50%;
+    height: 100%;
     text-align: center;
     font-family: 'Segoe UI';
 }
