@@ -9,7 +9,7 @@ body {
 #x1, #y1 {
     width: 65%;
     height: 70%;
-    background-color: lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow; 
     align-items: center;
     text-align: center;
     display: inline-block;
