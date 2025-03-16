@@ -77,11 +77,11 @@
             var d2 = (Carbs * Rise) / Sensitivity;
             var d3 = Math.round((d1 + d2) * 100) / 100;
             //var Ratio = Math.round((Correction) *100)/100;
-            var insulin = Math.round(d3 - Extra);
-            var insulin2 = Math.round(d3 - Extra);
+            var insulin = Math.round((d3 - Extra)*2)/2;
+            var insulin2 = Math.round((d3 - Extra)*2)/2;
             var excess = document.getElementById("x1").value - document.getElementById("x2").value;
             var lower = Math.round((excess / Sensitivity) * 100) / 100;
-            var food = Math.round((Carbs * +Rise) / Sensitivity);
+            var food = Math.round(((Carbs * +Rise) / Sensitivity) * 2) / 2;
             var oneless = Math.round((((+Carbs * +Rise) + +Current) - Extra * Sensitivity) - ((+insulin2 - .5) * +Sensitivity));
             var at = Math.round((((+Carbs * +Rise) + +Current) - Extra * Sensitivity) - (+insulin2 * +Sensitivity));
             var oneplus = Math.round((((+Carbs * +Rise) + +Current) - Extra * Sensitivity) - ((+insulin2 + .5) * +Sensitivity));
