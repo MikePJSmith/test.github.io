@@ -60,7 +60,7 @@
         document.getElementById("bb10").value = e1;
     });
     $("#MT1").click(function () {
-        var MT = 1;
+        var MT = 1
     });
     $("#but").click(function () {
         var Extra = $("#bb10").val()
@@ -78,7 +78,7 @@
             var d3 = Math.round((d1 + d2) * 100) / 100;
             //var Ratio = Math.round((Correction) *100)/100;
             var insulin = Math.round((d3 - Extra)*2)/2;
-            var insulin2 = Math.round((d3 - Extra)*2)/2;
+            var insulin2 = Math.round((d3 - Extra);
             var excess = document.getElementById("x1").value - document.getElementById("x2").value;
             var lower = Math.round((excess / Sensitivity) * 100) / 100;
             var food = Math.round(((Carbs * +Rise) / Sensitivity) * 2) / 2;
