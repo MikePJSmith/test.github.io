@@ -6,10 +6,11 @@ body {
     left: 0px;
     right: 0px;
 }
+
 #x1, #y1 {
     width: 65%;
     height: 70%;
-    background-color: lightgoldenrodyellow; 
+    background-color: lightgoldenrodyellow;
     align-items: center;
     text-align: center;
     display: inline-block;
@@ -19,7 +20,8 @@ body {
     font-size: 3vw;
     font-family: 'Segoe UI';
 }
- #x4, #z1 {
+
+#x4, #z1 {
     width: 65%;
     height: 70%;
     background-color: skyblue;
@@ -32,6 +34,7 @@ body {
     font-size: 3vw;
     font-family: 'Segoe UI';
 }
+
 #aa1, #aa2, #aa3, #aa4, #aa5, #aa6, #aa7, #aa8, #aa9 {
     display: inline-flex;
     vertical-align: middle;
@@ -41,10 +44,11 @@ body {
     width: 100%;
     height: 100%;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: 'Segoe UI';
     border-radius: 0;
 }
+
 #bb1, #bb2, #bb3, #bb4, #bb5, #bb6, #bb7, #bb8, #bb9, #bb10 {
     display: flex;
     background-color: linen;
@@ -53,10 +57,11 @@ body {
     width: 100%;
     height: 100%;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: 'Segoe UI';
     border-radius: 0;
 }
+
 #bb1 {
     display: flex;
     background-color: linen;
@@ -70,6 +75,7 @@ body {
     font-family: 'Segoe UI';
     border-radius: 0;
 }
+
 #x2, #x3, #x5, #y2, #y3, #value, #leftover, #bonus, #z2, #z4 {
     width: 65%;
     height: 70%;
@@ -83,7 +89,8 @@ body {
     font-size: 3vw;
     font-family: 'Segoe UI';
 }
-#z3, #test{
+
+#z3, #test {
     width: 65%;
     height: 70%;
     background-color: palegreen;
@@ -96,6 +103,7 @@ body {
     font-size: 3vw;
     font-family: 'Segoe UI';
 }
+
 #wrap {
     display: flex;
     flex-direction: column;
@@ -104,6 +112,7 @@ body {
     width: 100%;
     height: 100%;
 }
+
 #bolus {
     display: flex;
     justify-content: center;
@@ -115,6 +124,7 @@ body {
     border-top-right-radius: 15px;
     text-align: center;
 }
+
 #meal {
     display: inline-flex;
     justify-content: center;
@@ -124,6 +134,7 @@ body {
     background-color: slategrey;
     text-align: center;
 }
+
 .button {
     display: flex;
     background-color: linen;
@@ -139,8 +150,8 @@ body {
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 0px 5px 5px 1px rgba(0,0,0,0.75);
-
 }
+
 .MT {
     display: flex;
     background-color: greenyellow;
@@ -157,6 +168,7 @@ body {
     cursor: pointer;
     box-shadow: 0px 5px 5px 1px rgba(0,0,0,0.75);
 }
+
 .click {
     display: flex;
     background-color: linen;
@@ -165,18 +177,21 @@ body {
     justify-content: center;
     width: 100%;
     height: 100%;
-    padding:0;
+    padding: 0;
     text-align: center;
     font-size: 2vw;
     font-family: 'Segoe UI';
 }
+
 .button:hover {
-        background-color: white
-    }
+    background-color: white
+}
+
 .button:active {
-        background-color: darkslategrey;
-        transform: translateY(4px);
-    }
+    background-color: darkslategrey;
+    transform: translateY(4px);
+}
+
 #onboardwrapwrap {
     display: inline-flex;
     justify-content: center;
@@ -185,6 +200,7 @@ body {
     background-color: slategrey;
     text-align: center;
 }
+
 #onboardwrap {
     display: inline-flex;
     justify-content: center;
@@ -194,25 +210,28 @@ body {
     background-color: slategrey;
     text-align: center;
 }
+
 #onboard {
     display: inline-flex;
     justify-content: center;
     width: 95%;
-    height: 80%;
+    height: 90%;
     background-color: slategrey;
     text-align: center;
 }
+
 .boxes {
     display: flex;
     vertical-align: middle;
     justify-content: center;
-    padding:0;
+    padding: 0;
     width: 90%;
     height: 95%;
     text-align: center;
     font-size: 1.5vw;
     font-family: 'Segoe UI';
 }
+
 .recents {
     display: flex;
     justify-content: center;
@@ -225,13 +244,16 @@ body {
     cursor: pointer;
     box-shadow: 0px 5px 5px 1px rgba(0,0,0,0.75);
 }
-.recents:hover {
-    background-color: white
-}
-.recents:active {
-    background-color: darkslategrey;
-    transform: translateY(4px);
-}
+
+    .recents:hover {
+        background-color: white
+    }
+
+    .recents:active {
+        background-color: darkslategrey;
+        transform: translateY(4px);
+    }
+
 .recentvals {
     display: flex;
     background-color: linen;
@@ -243,12 +265,14 @@ body {
     font-size: 1.5vw;
     font-family: 'Segoe UI';
 }
+
 h3 {
     color: black;
     font-style: italic;
     margin-left: 10px;
     font-family: 'Segoe UI';
 }
+
 #labelstop {
     font-size: 2vw;
     display: inline-flex;
@@ -258,6 +282,7 @@ h3 {
     background: #7AB893;
     font-family: 'Segoe UI';
 }
+
 #valuestop {
     display: inline-flex;
     width: 100%;
@@ -266,6 +291,7 @@ h3 {
     background: #7AB893;
     font-family: 'Segoe UI';
 }
+
 #action {
     display: flex;
     justify-content: center;
@@ -274,6 +300,7 @@ h3 {
     height: 100%;
     background: #B2E3AF;
 }
+
 .calculate {
     position: relative;
     width: 25%;
@@ -286,13 +313,16 @@ h3 {
     cursor: pointer;
     box-shadow: 0px 5px 5px 1px rgba(0,0,0,0.75);
 }
-.calculate:hover {
+
+    .calculate:hover {
         background-color: white
     }
-.calculate:active {
+
+    .calculate:active {
         background-color: darkslategrey;
         transform: translateY(4px);
     }
+
 #labelsmid {
     display: inline-flex;
     width: 100%;
@@ -301,6 +331,7 @@ h3 {
     background: #7AB893;
     font-family: 'Segoe UI';
 }
+
 #valuesmid {
     display: inline-flex;
     width: 100%;
@@ -309,6 +340,7 @@ h3 {
     background: #7AB893;
     font-family: 'Segoe UI';
 }
+
 #labelsbottom {
     font-family: 'Segoe UI';
     display: inline-flex;
@@ -317,6 +349,7 @@ h3 {
     text-align: center;
     background: #B2E3AF;
 }
+
 #valuesbottom {
     display: inline-flex;
     width: 100%;
@@ -325,6 +358,7 @@ h3 {
     background: #B2E3AF;
     font-family: 'Segoe UI';
 }
+
 .id {
     font-size: 2.7vw;
     justify-content: center;
@@ -333,8 +367,9 @@ h3 {
     color: white;
     color: black;
     font-family: 'Segoe UI';
-        font-family: 'Segoe UI';
+    font-family: 'Segoe UI';
 }
+
 .content {
     display: flex;
     justify-content: center;
@@ -343,6 +378,7 @@ h3 {
     text-align: center;
     font-family: 'Segoe UI';
 }
+
 .label {
     display: flex;
     justify-content: center;
@@ -353,6 +389,7 @@ h3 {
     font-size: 2vw;
     font-family: 'Segoe UI';
 }
+
 #labelsresults {
     display: inline-flex;
     width: 100%;
@@ -361,6 +398,7 @@ h3 {
     background: #7AB893;
     font-family: 'Segoe UI';
 }
+
 #results {
     display: inline-flex;
     width: 100%;
@@ -371,6 +409,7 @@ h3 {
     border-bottom-right-radius: 15px;
     font-family: 'Segoe UI';
 }
+
 .final {
     display: flex;
     justify-content: center;
