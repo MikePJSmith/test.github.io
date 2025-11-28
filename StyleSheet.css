@@ -304,6 +304,20 @@ h3 {
     font-size: clamp(min-size, fluid-size, max-size);
 }
 
+#label1, #label6, #label9, #label4 {
+    display: inline-flex;
+    vertical-align: middle;
+    background-color: linen;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: clamp(min-size, fluid-size, max-size);
+    font-family: 'Segoe UI';
+    border-radius: 0;
+    background: #7AB893;
+}
 #action {
     display: flex;
     justify-content: center;
@@ -356,7 +370,7 @@ h3 {
     font-size: clamp(min-size, fluid-size, max-size);
 }
 
-#label2, #label3, #label5, #label8, #label7, #label10, #label11, #label12, #label1, #label6, #label9, #label4 {
+#label2, #label3, #label5, #label8 {
     display: inline-flex;
     vertical-align: middle;
     background-color: linen;
@@ -390,7 +404,20 @@ h3 {
     font-family: 'Segoe UI';
     font-size: clamp(min-size, fluid-size, max-size);
 }
-
+#label7, #label10, #label11, #label12 {
+    display: inline-flex;
+    vertical-align: middle;
+    background-color: linen;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: clamp(min-size, fluid-size, max-size);
+    font-family: 'Segoe UI';
+    border-radius: 0;
+    background: #B2E3AF;
+}
 .id {
     /*font-size: 2.7vw;*/
     justify-content: center;
