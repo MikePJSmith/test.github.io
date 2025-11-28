@@ -26,6 +26,12 @@
     $("#aa2").click(function () {
         var bbx = $("#bb1").val();
         var e1 = bbx * .875;
+        document.getElementById("bb3").value = "0"
+        document.getElementById("bb4").value = "0"
+        document.getElementById("bb5").value = "0"
+        document.getElementById("bb6").value = "0"
+        document.getElementById("bb7").value = "0"
+        document.getElementById("bb8").value = "0"
         document.getElementById("bb2").value = e1
         document.getElementById("bb10").value = e1;
     });
@@ -33,36 +39,71 @@
         var bbx = $("#bb1").val();
         var e1 = bbx * .750;
         document.getElementById("bb2").value = "0"
+        document.getElementById("bb4").value = "0"
+        document.getElementById("bb5").value = "0"
+        document.getElementById("bb6").value = "0"
+        document.getElementById("bb7").value = "0"
+        document.getElementById("bb8").value = "0"
         document.getElementById("bb3").value = e1
         document.getElementById("bb10").value = e1;
     });
     $("#aa4").click(function () {
         var bbx = $("#bb1").val();
         var e1 = bbx * .625;
+        document.getElementById("bb2").value = "0"
+        document.getElementById("bb3").value = "0"
+        document.getElementById("bb5").value = "0"
+        document.getElementById("bb6").value = "0"
+        document.getElementById("bb7").value = "0"
+        document.getElementById("bb8").value = "0"
         document.getElementById("bb4").value = e1
         document.getElementById("bb10").value = e1;
     });
     $("#aa5").click(function () {
         var bbx = $("#bb1").val();
         var e1 = bbx * .500;
+        document.getElementById("bb2").value = "0"
+        document.getElementById("bb3").value = "0"
+        document.getElementById("bb4").value = "0"
+        document.getElementById("bb6").value = "0"
+        document.getElementById("bb7").value = "0"
+        document.getElementById("bb8").value = "0"
         document.getElementById("bb5").value = e1
         document.getElementById("bb10").value = e1;
     });
     $("#aa6").click(function () {
         var bbx = $("#bb1").val();
         var e1 = bbx * .375;
+        document.getElementById("bb2").value = "0"
+        document.getElementById("bb3").value = "0"
+        document.getElementById("bb4").value = "0"
+        document.getElementById("bb5").value = "0"
+        document.getElementById("bb7").value = "0"
+        document.getElementById("bb8").value = "0"
         document.getElementById("bb6").value = e1
         document.getElementById("bb10").value = e1;
     });
     $("#aa7").click(function () {
         var bbx = $("#bb1").val();
         var e1 = bbx * .250;
+        document.getElementById("bb2").value = "0"
+        document.getElementById("bb3").value = "0"
+        document.getElementById("bb4").value = "0"
+        document.getElementById("bb5").value = "0"
+        document.getElementById("bb6").value = "0"
+        document.getElementById("bb8").value = "0"
         document.getElementById("bb7").value = e1
         document.getElementById("bb10").value = e1;
     });
     $("#aa8").click(function () {
         var bbx = $("#bb1").val();
         var e1 = bbx * .125;
+        document.getElementById("bb2").value = "0"
+        document.getElementById("bb3").value = "0"
+        document.getElementById("bb4").value = "0"
+        document.getElementById("bb5").value = "0"
+        document.getElementById("bb6").value = "0"
+        document.getElementById("bb7").value = "0"
         document.getElementById("bb8").value = e1
         document.getElementById("bb10").value = e1;
     });
