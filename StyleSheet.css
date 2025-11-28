@@ -285,11 +285,11 @@ h3 {
 
 #labelstop {
     /*font-size: 2vw;*/
-    font-size: clamp(min-size, fluid-size, max-size);
     display: inline-flex;
     width: 100%;
     height: 50%;
     text-align: center;
+    font-size: clamp(min-size, fluid-size, max-size);
     background: #7AB893;
     font-family: 'Segoe UI';
 }
@@ -360,6 +360,7 @@ h3 {
     width: 100%;
     height: 50%;
     text-align: center;
+    font-size: clamp(min-size, fluid-size, max-size);
     background: #B2E3AF;
 }
 
