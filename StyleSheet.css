@@ -375,13 +375,12 @@ h3 {
 
 .id {
     /*font-size: 2.7vw;*/
-    font-size: clamp(min-size, fluid-size, max-size);
     justify-content: center;
     align-items: center;
     display: inline-flex;
     color: white;
     color: black;
-    font-family: 'Segoe UI';
+    font-size: clamp(min-size, fluid-size, max-size);
     font-family: 'Segoe UI';
 }
 
