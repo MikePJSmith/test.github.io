@@ -32,6 +32,7 @@
     $("#aa3").click(function () {
         var bbx = $("#bb1").val();
         var e1 = bbx * .750;
+        document.getElementById("bb2").value = ''
         document.getElementById("bb3").value = e1
         document.getElementById("bb10").value = e1;
     });
