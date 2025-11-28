@@ -135,7 +135,8 @@
             var d3 = Math.round((d1 + d2) * 100) / 100;
             var Ratio = Math.round((y2) * 100) / 100;
             var insulin = Math.round(d3 - ex);
-            var insulin2 = Math.round(d3 - ex);
+            /*var insulin2 = Math.round(d3 - ex);*/
+            var insulin2 = Math.ceil((d3 - ex)*2)/2;
             var excess = document.getElementById("x1").value - document.getElementById("x2").value;
             var lower = Math.round((excess / x4) * 100) / 100;
             var food = Math.round((y1 / y2) * 0.5) / 0.5;
