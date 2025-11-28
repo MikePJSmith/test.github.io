@@ -49,7 +49,7 @@ body {
     border-radius: 0;
 }
 
-#bb1, #bb2, #bb3, #bb4, #bb5, #bb6, #bb7, #bb8, #bb9, #bb10 {
+#bb2, #bb3, #bb4, #bb5, #bb6, #bb7, #bb8, #bb9, #bb10 {
     display: flex;
     background-color: linen;
     justify-content: center;
