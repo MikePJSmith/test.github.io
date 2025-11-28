@@ -354,6 +354,20 @@ h3 {
     font-family: 'Segoe UI';
 }
 
+#label2, #label3, #label5, #label8 {
+    display: inline-flex;
+    vertical-align: middle;
+    background-color: linen;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: clamp(min-size, fluid-size, max-size);
+    font-family: 'Segoe UI';
+    border-radius: 0;
+}
+
 #labelsbottom {
     font-family: 'Segoe UI';
     display: inline-flex;
