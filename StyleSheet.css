@@ -44,7 +44,7 @@ body {
     width: 100%;
     height: 100%;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: clamp(min-size, fluid-size, max-size);
     font-family: 'Segoe UI';
     border-radius: 0;
 }
@@ -57,7 +57,7 @@ body {
     width: 100%;
     height: 100%;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: clamp(min-size, fluid-size, max-size);
     font-family: 'Segoe UI';
     border-radius: 0;
 }
